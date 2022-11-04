@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage('Stage 3') {
 			steps {
-				echo 'Hello 79'
+				echo 'Hello 7'
 			}
 		}
 	}
