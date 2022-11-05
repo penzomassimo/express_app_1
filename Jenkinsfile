@@ -5,6 +5,7 @@ pipeline {
 			steps {
 //				sh 'npm install'
 //				sh './jenkins/scripts/build.sh'
+				echo 'massimopenzo'
 			}
 		}
 	}
