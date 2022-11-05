@@ -1,29 +1,29 @@
 pipeline {
 	agent any
 	stages {
-		stage('Checkout') {
+		stage('checkout_stage') {
 			steps {
 				echo 'Hello 1'
 			}
 		}
-		stage('Compile') {
+		stage('compile_stage') {
 			steps {
-				echo 'Hello 289'
+				echo 'Hello 2'
 			}
 		}
-		stage('Unit Test') {
+		stage('unit_test_stage') {
 			steps {
-				echo 'Hello 7'
+				echo 'Hello 3'
 			}
 		}
-		stage('Code Coverage') {
+		stage('code_coverage_stage') {
 			steps {
-				echo 'Hello 7'
+				echo 'Hello 4'
 			}
 		}
-		stage('Static Code Analysis') {
+		stage('static_code_analysis_stage') {
 			steps {
-				echo 'Hello 7'
+				echo 'Hello 5'
 			}
 		}
 	}
