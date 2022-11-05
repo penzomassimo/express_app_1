@@ -11,6 +11,7 @@ pipeline {
 		stage('unit_test') {
 			steps {
 				echo 'testing the app'
+				sh './jenkins/scripts/unit_testing.sh'
 			}
 		}
 	}
