@@ -1,6 +1,8 @@
 pipeline {
 	agent {
-		docker { image 'node:16.13.1-alpine' }	
+		docker { 
+			image 'node:16.13.1-alpine'
+		}	
 	}
 	
 	stages {
@@ -23,8 +25,8 @@ pipeline {
 
 		stage('unit_test_stage') {
 			steps {
-				echo 'Hello 3'
-				sh './jenkins/scripts/build.sh'
+				echo 'Hello 35'
+				sh './jenkins/scripts/test.sh'
 			}
 		}
 	
