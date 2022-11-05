@@ -8,5 +8,10 @@ pipeline {
 				echo 'massimopenzo'
 			}
 		}
+		stage('unit_test') {
+			steps {
+				echo 'testing the app'
+			}
+		}
 	}
 }
