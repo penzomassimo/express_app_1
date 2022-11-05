@@ -2,6 +2,7 @@ pipeline {
 	agent {
 		docker { 
 			image 'node:16.13.1-alpine'
+			label 'my_label'
 		}	
 	}
 	
@@ -18,7 +19,7 @@ pipeline {
 
 		stage('compile_stage') {
 			steps {
-				echo 'Hello 233e654'
+				echo 'Hello 233e65400'
 			}
 		}
 		
