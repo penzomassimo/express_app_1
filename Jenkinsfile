@@ -1,17 +1,27 @@
 pipeline {
 	agent any
 	stages {
-		stage('Stage 1') {
+		stage('Checkout') {
 			steps {
 				echo 'Hello 1'
 			}
 		}
-		stage('Stage 2') {
+		stage('Compile') {
 			steps {
 				echo 'Hello 289'
 			}
 		}
-		stage('Stage 3') {
+		stage('Unit Test') {
+			steps {
+				echo 'Hello 7'
+			}
+		}
+		stage('Code Coverage') {
+			steps {
+				echo 'Hello 7'
+			}
+		}
+		stage('Static Code Analysis') {
 			steps {
 				echo 'Hello 7'
 			}
