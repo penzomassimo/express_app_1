@@ -1,4 +1,4 @@
-# Simple web app for Pluralsight courses and Docker Deep Dive book Massimo
+# Simple web app for Pluralsight courses and Docker Deep Dive book Massim
 
 Exposes web server on port `8080` as per `./app.js`
 
